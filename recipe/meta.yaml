@@ -1,5 +1,5 @@
 {% set name = "uncalled-for" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: b4f8fdbcec328c5a113807d653e041c5094473dd4afa7c34599ace69ccb7e69f
+  sha256: 3a2fffa03ccf92d2442084358a001ab06b4ca90aedcd93cc2f33e5b12054851b
 
 build:
   number: 0
