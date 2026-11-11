@@ -1,13 +1,13 @@
 {% set name = "uncalled-for" %}
-{% set version = "0.4.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 335b95bd2422332ec210d518f314a16e4c640921c39fc8bf2ad095bd3538f4af
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 49d9a55a806529dbb844f64a2e3adc8f44ad0b0802f5d91381a09c088c44e144
 
 build:
   number: 0
