@@ -1,5 +1,5 @@
 {% set name = "uncalled-for" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 49d9a55a806529dbb844f64a2e3adc8f44ad0b0802f5d91381a09c088c44e144
+  sha256: 58835db667a85408c7b6d6ad8dfdd74d7713d3be669b46396ba3d2c6a889242d
 
 build:
   number: 0
